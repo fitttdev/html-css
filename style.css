@@ -1,0 +1,51 @@
+/* Removing defaults */
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background: #f8f8f8;
+}
+
+/* Nav Bar */
+.nav-container {
+	display: flex;
+	/*flex-direction: row; */
+	justify-content: center; /* For main axis*/
+	align-items: center; /* For cross axis*/
+	margin-top: 50px;
+}
+
+#fitboard-nav ul {	
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+#fitboard-nav li { 
+	display: inline;
+	margin-right: 15px;
+	font-family: sans-serif; 
+	font-weight: 600;
+}
+
+/* Target anchor tags inside the #fitboard-nav section */
+#fitboard-nav a {
+	text-decoration: none; 
+}
+
+/* Main CSS */
+.register-container {
+    dislay: flex; 
+    justify-content: center;
+    align-items: center; 
+    text-align: center; /* Align content within the container */
+    margin-top: 200px;
+}
+
+.form-title {
+  padding: 20px;
+}
+
+
