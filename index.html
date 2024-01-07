@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fitboard</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <section id="fitboard-header">
+    </section>
+  </header>
+
+  <!-- <div class="nav-container">
+    <nav>
+      <section id="fitboard-nav">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">About FitDev</a></li>
+          <li><a href="#">Dashboard</a></li>
+        </ul>
+      </section>
+    </nav>
+  </div> -->
+
+  <main>
+    <div class="register-container">
+      <div class="register-content">
+        <!-- Register form -->
+        <div class="register-form">
+          <h1 class="form-title">Sign Up</h1>
+          <form action="/register" method="post">
+            <div class="form-group">
+              <i class="fa-solid fa-user"></i>
+              <input type="text" id="name" placeholder="Your Name" name="name" required>
+            </div>
+            <div class="form-group">
+              <i class="fa-solid fa-envelope"></i>
+              <input type="email" id="email" placeholder="Your Email" name="email" required>
+            </div>
+            <div class="form-group">
+              <i class="fa-solid fa-lock"></i>
+              <input type="password" id="password" placeholder="Password" name="password" required>
+            </div>
+            <div class="form-group">
+              <i class="fa-solid fa-lock-open"></i>
+              <input type="password" id="password_confirmation" placeholder="Confirm you password"
+                name="password_confirmation" required>
+            </div>
+            <div class="form-group terms-and-condition">
+              <input type="checkbox" id="checkboxId" name="terms-and-condition" required>
+              <label for="agree-terms"><span>I agree all statements in </span><a href="#" class="terms-of-service">Terms
+                  of service</a></label>
+            </div>
+            <div class="form-group form-button">
+              <input type="submit" value="Register">
+            </div>
+          </form>
+        </div>
+        <!-- Register image -->
+        <div class="register-image">
+          <div class="sign-up-image">
+            <img src="assets/images/sign-up.jpg" alt="sign-up-image">
+          </div>
+
+          <a href="#">I am already member</a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <section id="fitboard-footer">
+    </section>
+  </footer>
+</body>
+
+</html>
