@@ -14,8 +14,7 @@
 }
 
 .register-content {
-  width: 45vw;
-  height: 60vh;
+  width: 60%;
   border-radius: 20px;
   background-color: #ffff;
   display: flex;
@@ -24,13 +23,17 @@
 .register-form {
   flex: 1;
   /* Didn't quite understand this  */
-  padding: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .register-form h1 {
   font-family: Poppins;
   font-weight: 400;
   margin-bottom: 30px;
+  margin-left: 30px;
 }
 
 .form-group {
@@ -39,15 +42,26 @@
   align-items: center;
 }
 
-.form-group i.fa-user {
-  margin-right: 10px;
+/* .form-group i { */
+.form-group i.fa-solid {
+  margin-right: -16px;
+  z-index: 1;
+}
+
+.terms-and-condition {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.terms-and-condition input {
+  margin-right: 16px;
 }
 
 .form-group input {
   border: none;
   border-bottom: 1px solid #ccc;
   width: 100%;
-  padding: 8px;
+  padding: 8px 8px 8px 24px;
   box-sizing: border-box;
 }
 
@@ -64,7 +78,6 @@
   display: flex;
   flex-direction: column;
 }
-
 
 .register-image a {
   margin: 80px 0 0 80px;
