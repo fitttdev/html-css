@@ -4,6 +4,8 @@
   margin: 0;
 }
 
+/* Register */
+
 .register-container {
   height: 100vh;
   width: 100vw;
@@ -80,6 +82,82 @@
 }
 
 .register-image a {
+  margin: 80px 0 0 80px;
+  color: inherit;
+}
+
+/* Sign In */
+.sign-in-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f8f8;
+}
+
+.sign-in-content {
+  width: 60%;
+  border-radius: 20px;
+  background-color: #ffff;
+  display: flex;
+}
+
+.sign-in-form {
+  flex: 1;
+  /* Didn't quite understand this  */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sign-in-form h1 {
+  font-family: Poppins;
+  font-weight: 400;
+  margin-bottom: 30px;
+  margin-left: 30px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+/* .form-group i { */
+.form-group i.fa-solid {
+  margin-right: -16px;
+  z-index: 1;
+}
+
+.terms-and-condition input {
+  margin-right: 16px;
+}
+
+.form-group input {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+  padding: 8px 8px 8px 24px;
+  box-sizing: border-box;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-bottom: 1px solid gray;
+}
+
+/* Image */
+.sign-in-image {
+  flex: 1;
+  padding: 70px;
+  border-radius: 0 20px 20px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.sign-in-image a {
   margin: 80px 0 0 80px;
   color: inherit;
 }
